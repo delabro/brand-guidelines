@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>spotify-guidelines</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div class="container-clearfix">
+            <div id="logo">
+                <img class="main-logo" src="images/logo-white2.png" alt="spotify logo white">
+            </div>
+            <nav>
+                <a data-scroll href="#logo">Logo</a>
+                <a data-scroll href="#layout">Layout</a>
+                <a data-scroll href="#Colors">Colors</a>
+                <a data-scroll href="#Font">Font</a>
+            </nav>
+        </div>
+    </header>
+    <!-- <div class="wrapper"> -->
+    <div class="title">
+        <h1>Brand Guidelines</h1>
+    </div>
+    
+    <h1 class="greentitle">Logo</h1>
+    <div class="bannergreen">
+        <div class="inner">
+            <div class="text">
+                <p>
+                    First things first; while Spotify communications are made up of the four elements, the Logo is the focal point — an instantly recognisable symbol of the brand. That’s why it’s important to use the Logo exactly as specified in these guidelines. Our Logo is the combination of a simple and modern Wordmark with the Icon. The Icon stands for a lot of things — streaming of course, but also sound waves and movement, as well as sharing and community. We are very proud of our Logo, and would appreciate it if you could follow these guides to ensure it always looks its best.
+                </p>
+            </div>
+            <!-- text -->
+            <div class="float">
+                <img src="images/logo-guidelines.jpg" alt="logo guidelines">
+            </div>
+            </section>
+            <!-- float -->
+        </div>
+        <!-- inner -->
+        <div class="inner">
+            <div class="text">
+                <p>
+                    The Logo → Space between the Icon & Wordmark The Space between the Icon and the Wordmark is equal to the counter space in the ‘o’ of the Wordmark.
+                </p>
+            </div>
+            <!-- text -->
+            <div class="float">
+                <img src="images/logo-guidelines2.jpg" alt="logo guidelines">
+            </div>
+            <!-- float -->
+        </div>
+        <!-- inner -->
+        <h1 class="whitetitle">Layout</h1>
+    </div>
+    <div class="bannerwhite">
+        <div class="inner">
+            <div class="text">
+                <p> <h3>Exclusion Zone</h3>
+                    The logo and the icon’s exclusion zone is equal to half the height of the icon (marked as × in the diagram).
+
+                    <h3>Minimum Size</h3>
+                    Establishing a minimum size ensures that the impact and legibility of the logo is not compromised in application.
+
+                    </p>
+            </div>
+            <div class="float">
+                <img src="images/layout.png" alt="logo guidelines">
+            </div>
+        </div>
+    </div>
+    <!-- inner -->
+    <div class="inner">
+        <div class="text">
+            <p> <h3>Logo Misuse</h3>
+                It is important that the appearance of the logo remains consistent. The logo should not be misinterpreted, modified, or added to. No attempt should be made to alter the logo in any way. Its orientation, colour and composition should remain as indicated in this document — there are no exceptions.</p>
+        </div>
+        <div class="float">
+            <img src="images/layout2.png" alt="logo guidelines">
+        </div>
+    </div>
+    <!-- inner -->
+    <h1 class="greentitle">Colors</h1>
+    <div class="bannergreen">
+        <div class="inner">
+            <div class="text">
+                <p>
+                    Our Colours
+                    Spotify has always been green, and that won’t change. While embracing a much more colourful language in our brand communications, Spotify Green is our resting colour, used only in situations where the brand palette is not being used.
+                </p>
+            </div>
+            <!-- text -->
+            <div class="float">
+                <img src="images/colors.png" alt="logo guidelines">
+            </div>
+            <!-- float -->
+        </div>
+        <!-- inner -->
+        <div class="inner">
+            <div class="text">
+                <p>
+                    Rules with Colours
+                    Spotify Green should only ever sit on white, black, or a non-duotoned photograph. Spotify Green will mostly exist in the app. Spotify Green should never be used as or with a colour from the brand palette, or a duotoned image.
+                </p>
+            </div>
+            <!-- text -->
+            <div class="float">
+                <img src="images/colors2.png" alt="logo guidelines">
+            </div>
+            <!-- float -->
+        </div>
+        <!-- inner -->
+        <h1 class="whitetitle">Font</h1>
+    </div>
+    <div class="bannerwhite">
+        <div class="inner">
+            <div class="float">
+                <p> These are our brand fonts. If a partner project is being built internally at Spotify, the Circular font can be used without licensing issues, if not fallback fonts must be used.</p>
+            </div>
+            <div class="float">
+                <img src="images/fonts.png" alt="logo guidelines">
+            </div>
+        </div>
+    </div>
+    <!-- inner -->
+    <div class="inner">
+        <div class="float">
+            <p> <h3>Our Widgets</h3>
+                Add Spotify Widgets to your blog, website, or social page. We provide several widgets: Spotify Play Buttons and a Follow Button. Go to the Widget Builder to get the code and build your own!</p>
+        </div>
+        <div class="float">
+            <img src="images/widgets.png" alt="logo guidelines">
+        </div>
+    </div>
+    <!-- inner -->
+    <script src="js/classie.js"></script>
+    <script>
+    function init() {
+        window.addEventListener('scroll', function(e) {
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header, "smaller");
+                 document.querySelector('.main-logo').src = 'images/spot-logo.png'
+                
+              
+            } else {
+                if (classie.has(header, "smaller")) {
+                    classie.remove(header, "smaller");
+                }
+                
+                  document.querySelector('.main-logo').src = 'images/logo-white2.png'
+
+            }
+        });
+    }
+    window.onload = init();
+    </script>
+    <script>
+    // $("header").stick_in_parent();
+    </script>
+    <!-- <script src="smooth-scroll.js"></script>
+  <script>
+  smoothScroll.init({
+    offset: 75
+  });
+  </script> -->
+</body>
+
+</html>

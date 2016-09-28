@@ -1,0 +1,332 @@
+//variables
+
+$green-text: rgb(14, 215, 84);
+$white-background: white;
+
+$white-text: white;
+$green-background: rgb(14, 215, 84);
+
+
+body {
+    font-family: helvetica;
+    //color: rgb(14, 215, 84);
+    margin: 0;
+    box-sizing: border-box;
+    background: #EAF3E9;
+}
+
+.wrapper {
+	max-width: 88%;
+	margin: 0 auto;
+}
+
+header {
+    box-sizing: border-box;
+    background: $green-background;
+    padding: 1em 0;
+    //padding-bottom: 4em;
+}
+
+p {
+    //max-width:40%;
+    margin: 0;
+}
+
+.big1{
+    max-width:40%;
+    padding-left: 3em;
+}
+
+img {
+    max-width: 100%;
+    //padding-top: 2em;
+
+
+ }
+
+.title {
+   padding-left: 0em;
+   padding-top: 13.1em;
+   padding-bottom: 13em;
+
+
+   color: $green-text;
+}
+
+h1 {
+    
+    font-size: 2.3em;
+    //color:rgb(14, 215, 84);
+    margin: 0;
+
+
+}
+
+
+.whitetitle{
+    color: white;
+    padding-top: 3em;
+    padding-left: .2em;
+}
+
+.greentitle{
+    color: $green-text;
+    padding-left: .2em;
+    padding-top: 3em;
+}
+
+.whitetitle,
+.greentitle {
+    //padding-left:3em;
+    margin: 0;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 20px
+   
+    }
+
+a {
+	text-decoration: none;
+	color:grey;
+}
+
+li {
+	padding-bottom: .5em;
+}
+
+.bannergreen {
+	background: $green-background;
+    box-sizing: border-box;
+    //padding-left: 3em;
+    color: white;
+}
+
+.bannerwhite {
+
+    box-sizing: border-box;
+    //padding-left: 3em;
+    
+}
+
+.inner {
+
+    justify-content: flex-end;
+    padding:2em ;
+
+}
+
+.inner img {
+    max-width:100%;
+}
+
+.text{
+    
+    padding: 2em;
+    font-size: 12px;
+}
+
+.float{
+    
+   
+    padding: 2em;
+
+
+}
+
+
+
+//____________________MEDIA QUEIRIES_____________________//
+
+@media screen and (min-width:750px) {
+
+h1{
+font-size: 5em;
+}
+
+.title {
+   padding-left: 11em;
+   padding-top: 13.2em;
+   padding-bottom: 16em;
+}
+
+header #logo {
+padding-left: 4em;
+margin-top:.5em;
+}
+
+
+
+.whitetitle{
+    color: white;
+    //padding-top: 3em;
+    padding-left: 2.2em;
+    padding-bottom: .15em;
+}
+
+.greentitle{
+    color: $green-text;
+    padding-left: 2.2em;
+    padding-bottom: .15em;
+}
+
+header nav {
+box-sizing: border-box;
+padding: 1em 5em;
+
+}
+
+header #logo {
+padding: 1em 2em;
+}
+
+
+header.smaller #logo {
+
+width: 100px;
+
+}
+    
+.inner {
+    display: flex;
+    }
+
+.text{
+    font-size:16px;
+    max-width:40%;
+}
+
+p { 
+font-size: 16px;
+    
+    
+}
+
+}
+
+
+
+//____________________PLUGINS_____________________//
+
+header {
+    width: 100%;
+    //height: 150px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: $green-background;
+    -webkit-transition: height 0.5s ease-in-out;
+    -moz-transition: height 0.5s ease-in-out;
+    -ms-transition: height 0.5s ease-in-out;
+    -o-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+}
+header #logo {
+    display: inline-block;
+    //height: 150px;
+    //line-height: 150px;
+    //float: left;
+    //font-family: "Oswald", sans-serif;
+    //font-size: 60px;
+    color: white;
+    //font-weight: 400;
+    padding: 1em 2em;
+
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+header nav {
+    display: inline-block;
+    float: right;
+    //padding-right: 5em;
+}
+header nav a {
+    line-height: 150px;
+    margin-left: 20px;
+    
+    color: white;
+    //font-weight: 700;
+    font-size: 18px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+header nav a:hover {
+    color: #DDE6DE;
+}
+header.smaller {
+    background: $green-background;
+    padding: 0;
+
+}
+header.smaller #logo {
+    width: 50px;
+    //height: 75px;
+    //line-height: 75px;
+    font-size: 30px;
+    padding: .4em;
+    float: left;
+
+
+
+}
+header.smaller nav a {
+    line-height: 75px;
+    font-size: 1em;
+}
+
+header.smaller nav {
+    padding-top: .5em;
+    padding: 1em;
+}
+
+@media all and (max-width: 660px) {
+    header #logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+
+    }
+    header nav {
+        display: block;
+        float: none;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    header nav a {
+        line-height: 50px;
+        margin: 0 10px;
+    }
+    header.smaller {
+        height: 75px;
+    }
+    header.smaller #logo {
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+       
+    }
+    header.smaller nav {
+        height: 35px;
+    }
+    header.smaller nav a {
+        line-height: 35px;
+    }
+}
