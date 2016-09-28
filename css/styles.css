@@ -1,52 +1,64 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000310}}
 body {
   font-family: helvetica;
   margin: 0;
   box-sizing: border-box;
-  background: #EAF3E9; }
+  background: #E4E8E4; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000318}}
 .wrapper {
   max-width: 88%;
   margin: 0 auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000323}}
 header {
   box-sizing: border-box;
   background: #0ed754;
   padding: 1em 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000330}}
 p {
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000335}}
 .big1 {
   max-width: 40%;
   padding-left: 3em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000340}}
 img {
   max-width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000347}}
 .title {
   padding-left: 0em;
   padding-top: 13.1em;
   padding-bottom: 13em;
   color: #0ed754; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000356}}
 h1 {
   font-size: 2.3em;
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000366}}
 .whitetitle {
   color: white;
   padding-top: 3em;
   padding-left: .2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000372}}
 .greentitle {
   color: #0ed754;
   padding-left: .2em;
   padding-top: 3em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000378}}
 .whitetitle,
 .greentitle {
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000384}}
 ul {
   text-decoration: none;
   list-style-type: none;
@@ -55,77 +67,97 @@ ul {
   right: 16px;
   font-size: 20px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000394}}
 a {
   text-decoration: none;
   color: grey; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\0000399}}
 li {
   padding-bottom: .5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003103}}
 .bannergreen {
   background: #0ed754;
   box-sizing: border-box;
   color: white; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003110}}
 .bannerwhite {
   box-sizing: border-box; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003117}}
 .inner {
   justify-content: flex-end;
   padding: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003124}}
 .inner img {
   max-width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003128}}
 .text {
   padding: 2em;
   font-size: 12px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003134}}
 .float {
   padding: 2em; }
 
 @media screen and (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003148}}
   h1 {
     font-size: 5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003152}}
   .title {
     padding-left: 11em;
     padding-top: 13.2em;
     padding-bottom: 16em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003158}}
   header #logo {
     padding-left: 4em;
     margin-top: .5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003165}}
   .whitetitle {
     color: white;
     padding-left: 2.2em;
     padding-bottom: .15em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003172}}
   .greentitle {
     color: #0ed754;
     padding-left: 2.2em;
     padding-bottom: .15em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003178}}
   header nav {
     box-sizing: border-box;
     padding: 1em 5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003184}}
   header #logo {
     padding: 1em 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003189}}
   header.smaller #logo {
     width: 100px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003195}}
   .inner {
     display: flex; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003199}}
   .text {
     font-size: 16px;
     max-width: 40%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003204}}
   p {
     font-size: 16px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003216}}
 header {
   width: 100%;
   overflow: hidden;
@@ -140,6 +172,7 @@ header {
   -o-transition: height 0.5s ease-in-out;
   transition: height 0.5s ease-in-out; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003231}}
 header #logo {
   display: inline-block;
   color: white;
@@ -150,10 +183,12 @@ header #logo {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003249}}
 header nav {
   display: inline-block;
   float: right; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003254}}
 header nav a {
   line-height: 150px;
   margin-left: 20px;
@@ -165,28 +200,34 @@ header nav a {
   -o-transition: all 0.5s;
   transition: all 0.5s; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003267}}
 header nav a:hover {
   color: #DDE6DE; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003270}}
 header.smaller {
   background: #0ed754;
   padding: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003275}}
 header.smaller #logo {
   width: 50px;
   font-size: 30px;
   padding: .4em;
   float: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003286}}
 header.smaller nav a {
   line-height: 75px;
   font-size: 1em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003291}}
 header.smaller nav {
   padding-top: .5em;
   padding: 1em; }
 
 @media all and (max-width: 660px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003297}}
   header #logo {
     display: block;
     float: none;
@@ -195,6 +236,7 @@ header.smaller nav {
     line-height: 100px;
     text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003306}}
   header nav {
     display: block;
     float: none;
@@ -202,22 +244,25 @@ header.smaller nav {
     text-align: center;
     margin: 0 auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003313}}
   header nav a {
     line-height: 50px;
     margin: 0 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003317}}
   header.smaller {
     height: 75px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003320}}
   header.smaller #logo {
     height: 40px;
     line-height: 40px;
     font-size: 30px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003326}}
   header.smaller nav {
     height: 35px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845868690\/Desktop\/brand-guidelines\/sass\/styles\.scss}line{font-family:\00003329}}
   header.smaller nav a {
     line-height: 35px; } }
-
-/*# sourceMappingURL=styles.css.map */
